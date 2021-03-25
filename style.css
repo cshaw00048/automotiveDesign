@@ -20,6 +20,10 @@ header {
   min-height: 100vh;
 }
 
+header .container{
+  margin: auto 0;
+}
+
 .container {
   margin: 0 auto;
   max-width: 100%;
@@ -41,6 +45,19 @@ nav ul {
   display: flex;
   list-style-type: none;
   padding: 0;
-
-
 }
+
+nav li a{
+  color: white;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+.highlight {
+  background-color: #00c2ff;
+}
+
