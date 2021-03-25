@@ -20,8 +20,14 @@ header {
   min-height: 100vh;
 }
 
-header .container{
+.content{
   margin: auto 0;
+  font-size: 1.5rem;
+}
+
+.content h1{
+  color:#00c2ff;
+  margin-bottom: 0;
 }
 
 .container {
@@ -59,5 +65,7 @@ nav li a{
 
 .highlight {
   background-color: #00c2ff;
+  color:white;
+  text-decoration: none;
 }
 
