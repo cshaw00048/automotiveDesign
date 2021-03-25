@@ -5,6 +5,18 @@
 }
 
 body{
+  background-color:#fff;
   font-family:"Roboto", san-serif;
   margin: 0;
+}
+
+header {
+  background-image: url('/automotiveDesign/car-bg.jpg');
+  background-size: cover;
+  background-position: center center;
+  color:white;
+  display:flex;
+  min-height: 100vh;
+
+
 }
