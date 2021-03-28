@@ -1,32 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
-*{
+* {
   box-sizing: border-box;
 }
 
-body{
-  background-color:#fff;
-  font-family:"Roboto", san-serif;
+body {
+  background-color: #fff;
+  font-family: "Roboto", san-serif;
   margin: 0;
 }
 
 header {
-  background-image: url('/automotiveDesign/car-bg.jpg');
+  background-image: url("/automotiveDesign/car-bg.jpg");
   background-size: cover;
   background-position: center center;
-  color:white;
-  display:flex;
+  color: white;
+  display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: calc(100vh - 100px);
 }
 
-.content{
+.content {
   margin: auto 0;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
-.content h1{
-  color:#00c2ff;
+.content h1 {
+  color: #00c2ff;
   margin-bottom: 0;
 }
 
@@ -34,15 +34,14 @@ header {
   margin: 0 auto;
   max-width: 100%;
   width: 1000px;
-
 }
 
 nav {
-  display:flex;
+  display: flex;
   justify-content: space-between;
 }
 
-nav .logo{
+nav .logo {
   font-size: 2rem;
   padding: 1rem;
 }
@@ -53,7 +52,7 @@ nav ul {
   padding: 0;
 }
 
-nav li a{
+nav li a {
   color: white;
   padding: 1rem;
   text-decoration: none;
@@ -65,7 +64,25 @@ nav li a{
 
 .highlight {
   background-color: #00c2ff;
-  color:white;
+  color: white;
+  padding: 1rem;
   text-decoration: none;
 }
 
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+
+footer strong {
+  color: #00c2ff;
+}
