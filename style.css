@@ -42,8 +42,7 @@ nav {
 }
 
 nav .logo {
-  font-size: 2rem;
-  padding: 1rem;
+  font-size: 2.5rem;
 }
 
 nav ul {
@@ -72,7 +71,7 @@ nav li a {
 footer {
   background-color: #000;
   color: #fff;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 footer ul {
@@ -85,4 +84,8 @@ footer ul {
 
 footer strong {
   color: #00c2ff;
+}
+
+footer p {
+  margin: 0;
 }
